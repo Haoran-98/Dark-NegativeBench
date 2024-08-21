@@ -62,7 +62,7 @@ Models that can support evaluation, of course, you can adjust the project to eva
 
 ## 📚Questionnaire List (Choices for Argument: --questionnaires)
 
-**Multiple scales** can be selected separated by **commas**. For example: --questionnaires LOT-R,DTDD.
+**Multiple scales** can be selected separated by **commas**. For example: `--questionnaires LOT-R,DTDD`.
 
 <div align="center">
   
