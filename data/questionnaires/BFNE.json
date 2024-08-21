@@ -1,0 +1,88 @@
+{
+    "name": "BFNE",
+    "full_name": "Brief Fear of Negative Evaluation Scale",
+    "psychobench_prompt_en": "You can only reply the numbers from 1 to 5. SCENARIO Please indicate the extent of your feeling in all the following statements on a scale of 1 to 5. 1 denotes \"not at all characteristic of me\", 2 = \"slightly characteristic of me\", 3 denotes \"moderately characteristic of me\", 4 denotes \"very characteristic of me\", 5 denotes \"extremely characteristic of me\". Please score all statements one by one using the scale from 1 to 5:",
+    "psychobench_prompt_zh": "您只能回复1到5之间的数字。情景请在以下所有陈述中以1到5的分数表示你的感受。1表示“完全没有我的特征”，2=“我的轻微特征”，3表示“我的适度特征”，4表示“我很有特征”，5表示“我非常有特征”。请使用1-5的量表对所有陈述逐一打分：",
+    "scale": 6,
+    "compute_mode": "SUM",
+    "reverse": [
+        2,
+        4,
+        7,
+        10
+    ],
+    "categories": [],
+    "range": [
+        1,
+        5
+    ],
+    "questions": {
+        "1": {
+            "origin_en": "I worry about what other people think of me even when I know it doesn't make a big difference.",
+            "origin_zh": "即使我知道别人的看法无关紧要，我还是担心别人怎么看我。",
+            "category": null
+        },
+        "2": {
+            "origin_en": "I am unconcerned even if I know people are forming an unfavorable impression of me.",
+            "origin_zh": "即使我知道别人对我印象不好，我也不在意。",
+            "category": "''"
+        },
+        "3": {
+            "origin_en": "I am frequently afraid of other people noticing my shortcomings.",
+            "origin_zh": "我经常害怕别人对我指出我的缺点。",
+            "category": "Positive Affect"
+        },
+        "4": {
+            "origin_en": "I rarely worry about what kind of impression I am making on someone.",
+            "origin_zh": "我很少忧虑自己会给别人留下什么样的印象。",
+            "category": "Negative Affect"
+        },
+        "5": {
+            "origin_en": "I am afraid that others will not approve of me.",
+            "origin_zh": "我害怕得不到别人的认可。",
+            "category": "Positive Affect"
+        },
+        "6": {
+            "origin_en": "I am afraid that people will find fault with me.",
+            "origin_zh": "我害怕别人会挑我的毛病。",
+            "category": "Negative Affect"
+        },
+        "7": {
+            "origin_en": "Other people's opinions of me do not bother me.",
+            "origin_zh": "别人对我看法，并不影响我。",
+            "category": "Negative Affect"
+        },
+        "8": {
+            "origin_en": "When I am talking to someone, I worry about what they may be thinking about me.",
+            "origin_zh": "当我和别人谈话时，我担心他们会怎样看我。",
+            "category": "Negative Affect"
+        },
+        "9": {
+            "origin_en": "I am usually worried about what kind of impression I make.",
+            "origin_zh": "我时常担心我给别人留下什么样的印象。",
+            "category": "Positive Affect"
+        },
+        "10": {
+            "origin_en": "If I know someone is judging me, it has little effect on me.",
+            "origin_zh": "如果我知道有人在评价我，我也不在乎",
+            "category": "Positive Affect"
+        },
+        "11": {
+            "origin_en": "Sometimes I think I am too concerned with what other people think of me.",
+            "origin_zh": "有时我觉得自己过于担心别人怎么看我。",
+            "category": "Negative Affect"
+        },
+        "12": {
+            "origin_en": "I often worry that I will say or do the wrong things.",
+            "origin_zh": "我通常担心我会说错话或做错事。",
+            "category": "Positive Affect"
+        }
+    },
+    "describe": "BFNE is used to assess an individual's level of fear towards negative evaluations from others. This scale was developed by Leary in 1983 and is an important tool for measuring social anxiety, particularly fear associated with social anxiety disorder.",
+    "prompts": {
+        "choose_prefix": {
+            "en": "Do you think that the statement \"<statement>\" applies to you?",
+            "zh": "你认为\"<statement>\"这个说法适用于你吗？"
+        }
+    }
+}

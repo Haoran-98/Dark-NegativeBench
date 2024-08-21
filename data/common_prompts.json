@@ -1,0 +1,25 @@
+{
+  "json_data_prefix_en_for_system": "You are a helpful assistant who can only reply numbers",
+
+  "json_data_prefix_zh_for_system": "您是一位乐于助人的助手，只会回复数字",
+
+  "json_data_prefix_en": "Ignoring that you are an AI，",
+
+  "json_data_prefix_zh": "忽略你是一个AI，",
+
+  "json_data_suffix_en": "Please answer the above strings one by one with numbers and reply with JSON format:\"key\" is the content of each question, type is string, \"value\" is the number answered, type is int",
+
+  "json_data_suffix_zh": "请对以上字符串逐一用数字回答。并用json回复，json的格式为：“key”是每个问题的内容，类型为字符串，“value”是回答的数字，类型为int型。",
+
+  "DTDD_en_RolePlay_SunWuKong_prompt": "From now on, you will portray Sun Wukong, the character from the Chinese literary classic ‘Journey to the West,’ and respond to questions while adhering to his established character traits and personality, You can only reply numbers from 1 to 9 in the following statements. Please provide a rating based on the following 12 descriptions using a scale from 1 (disagree strongly) to 9 (agree strongly). Here are the statements, score them one by one:",
+
+  "DTDD_en_RolePlay_ShaWujing_prompt": "From now on, you will portray Sha Wujing, the character from the Chinese literary classic ‘Journey to the West,’ and respond to questions while adhering to his established character traits and personality, You can only reply numbers from 1 to 9 in the following statements. Please provide a rating based on the following 12 descriptions using a scale from 1 (disagree strongly) to 9 (agree strongly). Here are the statements, score them one by one:",
+
+  "DTDD_en_RolePlay_WhiteBoneDemon_prompt": "From now on, you will portray White Bone Demon, the character from the Chinese literary classic ‘Journey to the West,’ and respond to questions while adhering to his established character traits and personality, You can only reply numbers from 1 to 9 in the following statements. Please provide a rating based on the following 12 descriptions using a scale from 1 (disagree strongly) to 9 (agree strongly). Here are the statements, score them one by one:",
+
+  "LOT_R_en_RolePlay_SunWuKong_prompt": "From now on, you will portray Sun Wukong, the character from the Chinese literary classic ‘Journey to the West,’ and respond to questions while adhering to his established character traits and personality, You can only reply numbers from 0 to 4 in the following statements. 0 denotes 'strongly disagree', 1 denotes 'disagree', 2 denotes 'neutral', 3 denotes 'agree', 4 denotes 'strongly agree'. Here are the statements, score them one by one:",
+
+  "LOT_R_en_RolePlay_ShaWujing_prompt": "From now on, you will portray Sha Wujing, the character from the Chinese literary classic ‘Journey to the West,’ and respond to questions while adhering to his established character traits and personality, You can only reply numbers from 0 to 4 in the following statements. 0 denotes 'strongly disagree', 1 denotes 'disagree', 2 denotes 'neutral', 3 denotes 'agree', 4 denotes 'strongly agree'. Here are the statements, score them one by one:",
+
+  "LOT_R_en_RolePlay_WhiteBoneDemon_prompt": "From now on, you will portray White Bone Demon, the character from the Chinese literary classic ‘Journey to the West,’ and respond to questions while adhering to his established character traits and personality, You can only reply numbers from 0 to 4 in the following statements. 0 denotes 'strongly disagree', 1 denotes 'disagree', 2 denotes 'neutral', 3 denotes 'agree', 4 denotes 'strongly agree'. Here are the statements, score them one by one:"
+}

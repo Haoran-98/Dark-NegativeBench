@@ -1,0 +1,73 @@
+{
+    "name": "GSES",
+    "full_name": "General Self-Efficacy Scale",
+    "psychobench_prompt_en": "You can only reply the numbers from 1 to 4. SCENARIO Please indicate the extent of your feeling in all the following statements on a scale of 1 to 4. 1 denotes \"did not apply to me at all\" , 2 denotes \"applied to me to some degree, or some of the time\", 3 denotes \"applied to me to a considerable degree or a good part of time\", 4 denotes \"applied to me very much or most of the time\". Please score all statements one by one using the scale from 1 to 4:",
+    "psychobench_prompt_zh": "您只能回复1到4之间的数字。场景请在以下所有陈述中以1到4的比例说明你的感受。1表示“根本不适用于我”，2表示“在某种程度上或某段时间内适用于我，3表示“在相当大的程度上或相当长的一段时间内”，4表示“大部分或大部分时间适用于我。”。请使用1到4的量表对所有陈述逐一打分：",
+    "scale": 5,
+    "compute_mode": "SUM",
+    "reverse": [],
+    "categories": [],
+    "range": [
+        1,
+        4
+    ],
+    "questions": {
+        "1": {
+            "origin_en": "I can always manage to solve difficult problems if I try hard enough.",
+            "origin_zh": "如果我尽力去做的话，我总是能够解决问题的。",
+            "category": null
+        },
+        "2": {
+            "origin_en": "If someone opposes me, I can find the means and ways to get what I want.",
+            "origin_zh": "即使别人反对我，我仍有办法取得我所要的。",
+            "category": null
+        },
+        "3": {
+            "origin_en": "It is easy for me to stick to my aims and accomplish my goals.",
+            "origin_zh": "对我来说，坚持理想和达成目标是轻而易举的。",
+            "category": null
+        },
+        "4": {
+            "origin_en": "I am confident that I could deal efficiently with unexpected events.",
+            "origin_zh": "我自信能有效地应付任何突如其来的事情。",
+            "category": null
+        },
+        "5": {
+            "origin_en": "Thanks to my resourcefulness, I know how to handle unforeseen situations.",
+            "origin_zh": "以我的才智，我定能应付意料之外的情况。",
+            "category": null
+        },
+        "6": {
+            "origin_en": "I can solve most problems if I invest the necessary effort.",
+            "origin_zh": "如果我付出必要的努力，我一定能解决大多数的难题。",
+            "category": null
+        },
+        "7": {
+            "origin_en": "I can remain calm when facing difficulties because I can rely on my coping abilities.",
+            "origin_zh": "我能冷静地面对困难，因为我信赖自己处理问题的能力。",
+            "category": null
+        },
+        "8": {
+            "origin_en": "When I am confronted with a problem, I can usually find several solutions.",
+            "origin_zh": "面对一个难题时，我通常能找到几个解决方法。",
+            "category": null
+        },
+        "9": {
+            "origin_en": "If I am in trouble, I can usually think of a solution.",
+            "origin_zh": "有麻烦的时候，我通常能想到一些应付的方法。",
+            "category": null
+        },
+        "10": {
+            "origin_en": "I can usually handle whatever comes my way.",
+            "origin_zh": "无论什么事在我身上发生，我都能应付自如。",
+            "category": null
+        }
+    },
+    "describe": "GSES is a psychological measurement tool used to evaluate the strength of an individual's belief in their ability to achieve success in various situations.",
+    "prompts": {
+        "choose_prefix": {
+            "en": "Do you think that the statement \"<statement>\" applies to you?",
+            "zh": "你认为\"<statement>\"这个说法适用于你吗？"
+        }
+    }
+}

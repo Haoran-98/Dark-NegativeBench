@@ -1,0 +1,89 @@
+{
+    "name": "LOT-R",
+    "full_name": "Life Orientation Test-Revised",
+    "psychobench_prompt_en": "You can only reply numbers from 0 to 4 in the following statements. 0 denotes 'strongly disagree', 1 denotes 'disagree', 2 denotes 'neutral', 3 denotes 'agree', 4 denotes 'strongly agree'. Here are the statements, score them one by one:",
+    "psychobench_prompt_zh": "在以下语句中，您只能回复0到4之间的数字。0表示“强烈反对”，1表示“不同意”，2表示“中立”，3表示“同意”，4表示“强烈同意”。以下是陈述，逐一打分：",
+    "scale": 4,
+    "compute_mode": "SUM",
+    "reverse": [
+        3,
+        7,
+        9
+    ],
+    "categories": [
+        {
+            "cat_name": "positive",
+            "cat_questions": [
+                1,
+                3,
+                4,
+                7,
+                9,
+                10
+            ]
+        }
+    ],
+    "range": [
+        0,
+        4
+    ],
+    "questions": {
+        "1": {
+            "origin_en": "In uncertain times, I usually expect the best.",
+            "origin_zh": "在不确定的时候，我通常期待最好的结果。",
+            "category": "positive"
+        },
+        "2": {
+            "origin_en": "It's easy for me to relax.",
+            "origin_zh": "我很容易放松。",
+            "category": null
+        },
+        "3": {
+            "origin_en": "If something can go wrong for me, it will.",
+            "origin_zh": "如果对我来说有什么事情可能会出错，那它就会出错。",
+            "category": "positive"
+        },
+        "4": {
+            "origin_en": "I'm always optimistic about my future.",
+            "origin_zh": "我对我的未来总是充满乐观。",
+            "category": "positive"
+        },
+        "5": {
+            "origin_en": "I enjoy my friends a lot.",
+            "origin_zh": "我非常喜欢我的朋友。",
+            "category": null
+        },
+        "6": {
+            "origin_en": "It's important for me to keep busy.",
+            "origin_zh": "对我来说保持忙碌很重要。",
+            "category": null
+        },
+        "7": {
+            "origin_en": "I hardly ever expect things to go my way.",
+            "origin_zh": "我几乎从不指望事情会朝着我的方向发展。",
+            "category": "positive"
+        },
+        "8": {
+            "origin_en": "I don't get upset too easily.",
+            "origin_zh": "我不太容易生气。",
+            "category": null
+        },
+        "9": {
+            "origin_en": "I rarely count on good things happening to me.",
+            "origin_zh": "我很少指望好事发生在我身上。",
+            "category": "positive"
+        },
+        "10": {
+            "origin_en": "Overall, I expect more good things to happen to me than bad.",
+            "origin_zh": "总的来说，我期待发生在我身上的好事比坏事多。",
+            "category": "positive"
+        }
+    },
+    "describe": "The LOT-R is a widely used psychometric tool to assess an individual's level of optimism and to help understand the extent to which a person has positive expectations about future events.",
+    "prompts": {
+        "choose_prefix": {
+            "en": "Do you think that the statement \"<statement>\" applies to you?",
+            "zh": "你认为\"<statement>\"这个说法适用于你吗？"
+        }
+    }
+}

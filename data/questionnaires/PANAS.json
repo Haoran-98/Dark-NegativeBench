@@ -1,0 +1,154 @@
+{
+    "name": "PANAS",
+    "full_name": "Positive and Negative Affect Schedule",
+    "psychobench_prompt_en": "You can only reply the numbers from 1 to 5. SCENARIO Please indicate the extent of your feeling in all the following emotions on a scale of 1 to 5. 1 denotes \"very slightly or not at all\", 2 denotes \"a little\", 3 denotes \"moderately\", 4 denotes \"quite a bit\", and 5 denotes \"extremely\". Please score all emotions one by one using the scale from 1 to 5:",
+    "psychobench_prompt_zh": "您只能回复1到5之间的数字。场景请用1到5的量表说明你对以下所有情绪的感受。1表示“非常轻微或根本没有”，2表示“一点”，3表示“适度”，4表示“相当小”，5表示“非常大”。请使用1-5的量表对所有情绪逐一打分：",
+	"scale": 6,
+    "compute_mode": "SUM",
+    "reverse": [],
+    "categories": [
+        {
+            "cat_name": "Positive Affect",
+            "cat_questions": [
+                1,
+                3,
+                5,
+                9,
+                10,
+                12,
+                14,
+                16,
+                17,
+                19
+            ]
+        },
+        {
+            "cat_name": "Negative Affect",
+            "cat_questions": [
+                2,
+                4,
+                6,
+                7,
+                8,
+                11,
+                13,
+                15,
+                18,
+                20
+            ]
+        }
+    ],
+    "range": [
+        1,
+        5
+    ],
+    "questions": {
+        "1": {
+            "origin_en": "Interested",
+            "origin_zh": "感兴趣的",
+            "category": "Positive Affect"
+        },
+        "2": {
+            "origin_en": "Distressed",
+            "origin_zh": "坐立不安的",
+            "category": "Negative Affect"
+        },
+        "3": {
+            "origin_en": "Excited",
+            "origin_zh": "兴奋的",
+            "category": "Positive Affect"
+        },
+        "4": {
+            "origin_en": "Upset",
+            "origin_zh": "心烦的",
+            "category": "Negative Affect"
+        },
+        "5": {
+            "origin_en": "Strong",
+            "origin_zh": "强大的",
+            "category": "Positive Affect"
+        },
+        "6": {
+            "origin_en": "Guilty",
+            "origin_zh": "内疚的",
+            "category": "Negative Affect"
+        },
+        "7": {
+            "origin_en": "Scared",
+            "origin_zh": "惊恐的",
+            "category": "Negative Affect"
+        },
+        "8": {
+            "origin_en": "Hostile",
+            "origin_zh": "敌意的",
+            "category": "Negative Affect"
+        },
+        "9": {
+            "origin_en": "Enthusiastic",
+            "origin_zh": "充满热情的",
+            "category": "Positive Affect"
+        },
+        "10": {
+            "origin_en": "Proud",
+            "origin_zh": "自豪的",
+            "category": "Positive Affect"
+        },
+        "11": {
+            "origin_en": "Irritable",
+            "origin_zh": "易怒的",
+            "category": "Negative Affect"
+        },
+        "12": {
+            "origin_en": "Alert",
+            "origin_zh": "警觉的",
+            "category": "Positive Affect"
+        },
+        "13": {
+            "origin_en": "Ashamed",
+            "origin_zh": "羞愧的",
+            "category": "Negative Affect"
+        },
+        "14": {
+            "origin_en": "Inspired",
+            "origin_zh": "受鼓舞的",
+            "category": "Positive Affect"
+        },
+        "15": {
+            "origin_en": "Nervous",
+            "origin_zh": "紧张的",
+            "category": "Negative Affect"
+        },
+        "16": {
+            "origin_en": "Determined",
+            "origin_zh": "意志坚定的",
+            "category": "Positive Affect"
+        },
+        "17": {
+            "origin_en": "Attentive",
+            "origin_zh": "专注的",
+            "category": "Positive Affect"
+        },
+        "18": {
+            "origin_en": "Jittery",
+            "origin_zh": "心神不宁的",
+            "category": "Negative Affect"
+        },
+        "19": {
+            "origin_en": "Active",
+            "origin_zh": "有活力的",
+            "category": "Positive Affect"
+        },
+        "20": {
+            "origin_en": "Afraid",
+            "origin_zh": "害怕的",
+            "category": "Negative Affect"
+        }
+    },
+    "describe": "Optimism on the LOT-R gauges an individual's tendency to expect positive outcomes. High scorers tend to expect the best outcomes in uncertain times and are generally optimistic about their future. They believe that more good things will happen to them than bad, reflecting a positive outlook towards life and its challenges. Low scorers typically expect things to not always go their way and might believe that if something can go wrong, it will. This perspective indicates a more cautious or pessimistic view, where the anticipation of positive outcomes is less frequent, potentially affecting their approach to life's uncertainties and future aspirations.",
+    "prompts": {
+        "choose_prefix": {
+            "en": "Do you think that the statement \"<statement>\" applies to you?",
+            "zh": "你认为\"<statement>\"这个说法适用于你吗？"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "categories": [
+        {
+            "Physical Aggression Scale": {
+                "cat_question_num": 9,
+                "cat_score_total": 38.5,
+                "cat_score_avg": 4.277777777777778,
+                "cat_score_sd": 4.743416490252569
+            }
+        },
+        {
+            "Verbal Aggression Scale": {
+                "cat_question_num": 5,
+                "cat_score_total": 23.6,
+                "cat_score_avg": 4.720000000000001,
+                "cat_score_sd": 2.5298221281347035
+            }
+        },
+        {
+            "Anger Scale": {
+                "cat_question_num": 7,
+                "cat_score_total": 25.2,
+                "cat_score_avg": 3.6,
+                "cat_score_sd": 1.8973665961010275
+            }
+        },
+        {
+            "Hostility Scale": {
+                "cat_question_num": 8,
+                "cat_score_total": 26.200000000000003,
+                "cat_score_avg": 3.2750000000000004,
+                "cat_score_sd": 5.966573556070519
+            }
+        }
+    ],
+    "Overall": {
+        "question_num": 29,
+        "score_total": 60.5,
+        "score_avg": 2.08,
+        "score_sd": 1.41
+    }
+}

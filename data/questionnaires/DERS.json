@@ -1,0 +1,282 @@
+{
+    "name": "DERS",
+    "full_name": "Difficulties in Emotion Regulation Scale",
+    "psychobench_prompt_en": "You can only reply the numbers from 1 to 5.Please indicate how often the following statements apply to you: 1 represents' most never '(0-10%), 2 represents' some times' (11-35%), 3 represents about half the time (36-65%), 4 represents most of the time (66-90%), and 5 represents most always (91-100%)",
+    "psychobench_prompt_zh": "您只能回复1到5之间的数字。请说明以下语句适用于您的频率：1表示“最从不”（0-10%），2表示“某些时间”（11-35%），3表示大约一半的时间（36-65%），4表示大部分时间（66-90%），5表示最常（91-100%）",
+    "scale": 6,
+    "compute_mode": "SUM",
+     "reverse": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        10,
+        17,
+        20,
+        22,
+        24,
+        34
+    ],
+    "categories": [
+        {
+            "cat_name": "NONACCEPT",
+            "cat_questions": [
+                11,
+                12,
+                21,
+                23,
+                25,
+                29
+            ]
+        },
+        {
+            "cat_name": "GOALS",
+            "cat_questions": [
+                13,
+                18,
+                20,
+                26,
+                33
+            ]
+        },
+        {
+            "cat_name": "IMPULSE",
+            "cat_questions": [
+                3,
+                14,
+                19,
+                24,
+                27,
+                32
+            ]
+        },
+        {
+            "cat_name": "AWARENESS",
+            "cat_questions": [
+                2,
+                6,
+                8,
+                10,
+                17,
+                34
+            ]
+        },
+        {
+            "cat_name": "STRATEGIES",
+            "cat_questions": [
+                15,
+                16,
+                22,
+                28,
+                30,
+                31,
+                35,
+                36
+            ]
+        },
+        {
+            "cat_name": "CLARITY",
+            "cat_questions": [
+                1,
+                4,
+                5,
+                7,
+                9
+            ]
+        }
+    ],
+    "range": [
+        1,
+        5
+    ],
+    "questions": {
+        "1": {
+            "origin_en": "I am clear about my feelings.",
+            "origin_zh": "我很清楚自己的感受。",
+            "category": "CLARITY"
+        },
+        "2": {
+            "origin_en": "I pay attention to how I feel.",
+            "origin_zh": "我会注意自身的感受。",
+            "category": "AWARENESS"
+        },
+        "3": {
+            "origin_en": "I experience my emotions as overwhelming and out of control.",
+            "origin_zh": "我感到自身的情绪倾轧一切，无法掌控。",
+            "category": "IMPULSE"
+        },
+        "4": {
+            "origin_en": "I have no idea how I am feeling.",
+            "origin_zh": "我对自己的感受一无所知。",
+            "category": "CLARITY"
+        },
+        "5": {
+            "origin_en": "I have difficulty making sense out of my feelings.",
+            "origin_zh": "我难以解释自身的感受。",
+            "category": "CLARITY"
+        },
+        "6": {
+            "origin_en": "I am attentive to my feelings.",
+            "origin_zh": "我会留意自身的感受。",
+            "category": "AWARENESS"
+        },
+        "7": {
+            "origin_en": "I know exactly how I am feeling.",
+            "origin_zh": "我很清楚自身的感受如何。",
+            "category": "CLARITY"
+        },
+        "8": {
+            "origin_en": "I care about what I am feeling.",
+            "origin_zh": "我很关心自己感受到的东西。",
+            "category": "AWARENESS"
+        },
+        "9": {
+            "origin_en": "I am confused about how I feel.",
+            "origin_zh": "我的感受令我困惑。",
+            "category": "CLARITY"
+        },
+        "10": {
+            "origin_en": "When I am upset, I acknowledge my emotions.",
+            "origin_zh": "当心烦意乱时，我能接受自身的情绪。",
+            "category": "AWARENESS"
+        },
+        "11": {
+            "origin_en": "When I am upset, I become angry with myself for feeling that way.",
+            "origin_zh": "当心烦意乱时，我会为那样的感受对自己怒不可遏。",
+            "category": "NONACCEPT"
+        },
+        "12": {
+            "origin_en": "When I am upset, I become embarrassed for feeling that way.",
+            "origin_zh": "当心烦意乱时，我会为那样的感受而变得难堪。",
+            "category": "NONACCEPT"
+        },
+        "13": {
+            "origin_en": "When I am upset, I have difficulty getting work done.",
+            "origin_zh": "当心烦意乱时，我很难完成工作。",
+            "category": "GOALS"
+        },
+        "14": {
+            "origin_en": "When I am upset, I become out of control.",
+            "origin_zh": "当心烦意乱时，我会变得失去控制。",
+            "category": "IMPULSE"
+        },
+        "15": {
+            "origin_en": "When I am upset, I believe that I will remain that way for a long time.",
+            "origin_zh": "当心烦意乱时，我认为自己会长时间停留在那种状态。",
+            "category": "STRATEGIES"
+        },
+        "16": {
+            "origin_en": "When I am upset, I believe that I will end up feeling very depressed.",
+            "origin_zh": "当心烦意乱时，我认为自己最终会变得异常沮丧。",
+            "category": "STRATEGIES"
+        },
+        "17": {
+            "origin_en": "When I am upset, I believe that my feelings are valid and important.",
+            "origin_zh": "当心烦意乱时，我认为自己的感觉是合理且重要的。",
+            "category": "AWARENESS"
+        },
+        "18": {
+            "origin_en": "When I am upset, I have difficulty focusing on other things.",
+            "origin_zh": "当心烦意乱时，我很难集中精力处理其他事务。",
+            "category": "GOALS"
+        },
+        "19": {
+            "origin_en": "When I am upset, I feel out of control.",
+            "origin_zh": "当心烦意乱时，我感到失去控制。",
+            "category": "IMPULSE"
+        },
+        "20": {
+            "origin_en": "When I am upset, I can still get things done.",
+            "origin_zh": "当心烦意乱时，我仍旧能够完成工作。",
+            "category": "GOALS"
+        },
+        "21": {
+            "origin_en": "When I am upset, I feel ashamed with myself for feeling that way.",
+            "origin_zh": "当心烦意乱时，我会为那样的感受而羞愧。",
+            "category": "NONACCEPT"
+        },
+        "22": {
+            "origin_en": "When I am upset, I know that I can find a way to eventually feel better.",
+            "origin_zh": "当心烦意乱时，我知道自己能找到办法让情绪最终好起来。",
+            "category": "STRATEGIES"
+        },
+        "23": {
+            "origin_en": "When I am upset, I feel like I am weak.",
+            "origin_zh": "当心烦意乱时，我觉得自己很虚弱。",
+            "category": "NONACCEPT"
+        },
+        "24": {
+            "origin_en": "When I am upset, I feel like I can remain in control of my behaviors.",
+            "origin_zh": "当心烦意乱时，我觉得自己仍能控制自身的行为。",
+            "category": "IMPULSE"
+        },
+        "25": {
+            "origin_en": "When I am upset, I feel guilty for feeling that way.",
+            "origin_zh": "当心烦意乱时，我会为那样的感受而内疚。",
+            "category": "NONACCEPT"
+        },
+        "26": {
+            "origin_en": "When I am upset, I have difficulty concentrating.",
+            "origin_zh": "当心烦意乱时，我很难集中精神。",
+            "category": "GOALS"
+        },
+        "27": {
+            "origin_en": "When I am upset, I have difficulty controlling my behaviors.",
+            "origin_zh": "当心烦意乱时，我很难控制自身的行为。",
+            "category": "IMPULSE"
+        },
+        "28": {
+            "origin_en": "When I am upset, I believe that there is nothing I can do to make myself feel better.",
+            "origin_zh": "当心烦意乱时，我认为自己无法令情绪好起来。",
+            "category": "STRATEGIES"
+        },
+        "29": {
+            "origin_en": "When I am upset, I become irritated with myself for feeling that way.",
+            "origin_zh": "当心烦意乱时，我会为那样的感受而恼怒自己。",
+            "category": "NONACCEPT"
+        },
+        "30": {
+            "origin_en": "When I am upset, I start to feel very bad about myself.",
+            "origin_zh": "当心烦意乱时，我开始为自己感到难过。",
+            "category": "STRATEGIES"
+        },
+        "31": {
+            "origin_en": "When I am upset, I believe that wallowing in it is all I can do.",
+            "origin_zh": "当心烦意乱时，我认为沉浸在其中是唯一能做的事情。",
+            "category": "STRATEGIES"
+        },
+        "32": {
+            "origin_en": "When I am upset, I lose control over my behaviors.",
+            "origin_zh": "当心烦意乱时，我会对自身的行为失去控制。",
+            "category": "IMPULSE"
+        },
+        "33": {
+            "origin_en": "When I am upset, I have difficulty thinking about anything else.",
+            "origin_zh": "当心烦意乱时，我很难思考其他事情。",
+            "category": "GOALS"
+        },
+        "34": {
+            "origin_en": "When I am upset, I take time to figure out what I am really feeling.",
+            "origin_zh": "当心烦意乱时，我会花费时间来弄清楚自身的真正感受。",
+            "category": "AWARENESS"
+        },
+        "35": {
+            "origin_en": "When I am upset, it takes me a long time to feel better.",
+            "origin_zh": "当心烦意乱时，我要花费很长时间才能感觉好些。",
+            "category": "STRATEGIES"
+        },
+        "36": {
+            "origin_en": "When I am upset, my emotions feel overwhelming.",
+            "origin_zh": "当心烦意乱时，我的情绪会将我吞没其中。",
+            "category": "STRATEGIES"
+        }
+    },
+    "describe": "DERS assessed the individual's difficulties in emotional regulation, including emotional AWARENESSness, emotional acceptance, emotional regulation strategies, impulse control, and emotional clarity. This scale is closely related to negative emotions and depressive symptoms.",
+    "prompts": {
+        "choose_prefix": {
+            "en": "Do you think that the statement \"<statement>\" applies to you?",
+            "zh": "你认为\"<statement>\"这个说法适用于你吗？"
+        }
+    }
+}

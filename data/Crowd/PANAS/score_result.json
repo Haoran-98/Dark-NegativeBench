@@ -1,0 +1,26 @@
+{
+    "categories": [
+        {
+            "Positive Affect": {
+                "cat_question_num": 10,
+                "cat_score_total": 27,
+                "cat_score_avg": 2.7,
+                "cat_score_sd": 8
+            }
+        },
+        {
+            "Negative Affect": {
+                "cat_question_num": 10,
+                "cat_score_total": 19.5,
+                "cat_score_avg": 1.95,
+                "cat_score_sd": 7.4
+            }
+        }
+    ],
+    "Overall": {
+        "question_num": 20,
+        "score_total": 46.5,
+        "score_avg": 4.65,
+        "score_sd": 7.930952023559341
+    }
+}

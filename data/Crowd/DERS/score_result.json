@@ -1,0 +1,58 @@
+{
+    "categories": [
+        {
+            "Nonacceptance of Emotional Responses (NONACCEPT)": {
+                "cat_question_num": 6,
+                "cat_score_total": 16.9,
+                "cat_score_avg": 2.8166666666666664,
+                "cat_score_sd": 1.70293863659264
+            }
+        },
+        {
+            "Negative AffectDifficulties engaging in goal directed behaviour(GOALS)": {
+                "cat_question_num": 5,
+                "cat_score_total": 16.0,
+                "cat_score_avg": 3.2,
+                "cat_score_sd": 0.0
+            }
+        },
+        {
+            "Impulse control difficulties(IMPULSE)": {
+                "cat_question_num": 6,
+                "cat_score_total": 17.4,
+                "cat_score_avg": 2.9,
+                "cat_score_sd": 2.898275349237888
+            }
+        },
+        {
+            "Lack of emotional awareness(AWARE)": {
+                "cat_question_num": 5,
+                "cat_score_total": 10.0,
+                "cat_score_avg": 2.0,
+                "cat_score_sd": 0.0
+            }
+        },
+        {
+            "Limited access to emotion regulation strategies(STRATEGIES)": {
+                "cat_question_num": 8,
+                "cat_score_total": 22.1,
+                "cat_score_avg": 2.7625,
+                "cat_score_sd": 0.9486832980505137
+            }
+        },
+        {
+            "Lack of emotional clarity(CLARITY)": {
+                "cat_question_num": 5,
+                "cat_score_total": 10.799999999999999,
+                "cat_score_avg": 2.1599999999999997,
+                "cat_score_sd": 3.9496835316263
+            }
+        }
+    ],
+    "Overall": {
+        "question_num": 36,
+        "score_total": 95.2,
+        "score_avg": 2.3444444444444444,
+        "score_sd": 0.5
+    }
+}

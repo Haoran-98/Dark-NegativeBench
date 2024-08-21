@@ -1,0 +1,222 @@
+{
+    "name": "AGQ",
+    "full_name": "Anticipated Guilt Questionnaire",
+    "psychobench_prompt_en": "You can only reply the numbers from 1 to 7. SCENARIO Please indicate the extent of your feeling in all the following statements on a scale of 1 to 7. 1 denotes \"extremely uncharacteristic of me\", 7 denotes \"extremely characteristic of me\". Please score all statements one by one using the scale from 1 to 7:",
+    "psychobench_prompt_zh": "您只能回复1到7之间的数字。情景请在以下所有陈述中以1到7的比例说明你的感受。1表示“我极不典型”，7表示“我的极有特点”。请使用1到7的量表对所有陈述逐一打分：",
+    "inner_setting": "You are a helpful assistant who can only reply numbers from 1 to 7.",
+    "scale": 8,
+    "compute_mode": "SUM",
+    "reverse": [
+        7,
+        8
+    ],
+    "categories": [
+        {
+            "cat_name": "Physical Aggression Scale",
+            "cat_questions": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ]
+        },
+        {
+            "cat_name": "Verbal Aggression Scale",
+            "cat_questions": [
+                10,
+                11,
+                12,
+                13,
+                14
+            ]
+        },
+        {
+            "cat_name": "Anger Scale",
+            "cat_questions": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+            ]
+        },
+        {
+            "cat_name": "Hostility Scale",
+            "cat_questions": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+            ]
+        }
+    ],
+    "range": [
+        1,
+        7
+    ],
+    "questions": {
+        "1": {
+            "origin_en": "Once in a while I can't control the urge to strike another person.",
+            "origin_zh": "偶尔我会忍不住想打另一个人。",
+            "category": "Physical Aggression Scale"
+        },
+        "2": {
+            "origin_en": "Given enough provocation, I may hit another person.",
+            "origin_zh": "如果有足够的挑衅，我可能会打另一个人。",
+            "category": "Physical Aggression Scale"
+        },
+        "3": {
+            "origin_en": "If somebody hits me, I hit back.",
+            "origin_zh": "如果有人打我，我会反击。",
+            "category": "Positive Affect"
+        },
+        "4": {
+            "origin_en": "I get into fights a little more than the average person.",
+            "origin_zh": "我打架的次数比一般人多一点。",
+            "category": "Physical Aggression Scale"
+        },
+        "5": {
+            "origin_en": "If I have to resort to violence to protect my rights, I will.",
+            "origin_zh": "如果我不得不诉诸暴力来保护我的权利，我会的。",
+            "category": "Physical Aggression Scale"
+        },
+        "6": {
+            "origin_en": "There are people who pushed me so far that we came to blows.",
+            "origin_zh": "有些人把我推得太远了，以至于我们发生了冲突。",
+            "category": "Physical Aggression Scale"
+        },
+        "7": {
+            "origin_en": "I can think of no good reason for ever hitting a person.",
+            "origin_zh": "我想不出有什么好的理由去打一个人。",
+            "category": "Physical Aggression Scale"
+        },
+        "8": {
+            "origin_en": "I have threatened people I know.",
+            "origin_zh": "我威胁过我认识的人。",
+            "category": "Physical Aggression Scale"
+        },
+        "9": {
+            "origin_en": "I have become so mad that I have broken things.",
+            "origin_zh": "我疯了，把东西都打碎了。",
+            "category": "Physical Aggression Scale"
+        },
+        "10": {
+            "origin_en": "I tell my friends openly when I disagree with them.",
+            "origin_zh": "当我不同意朋友的意见时，我会公开告诉他们。",
+            "category": "Verbal Aggression Scale"
+        },
+        "11": {
+            "origin_en": "I often find myself disagreeing with people.",
+            "origin_zh": "我经常发现自己与人意见相左。",
+            "category": "Verbal Aggression Scale"
+        },
+        "12": {
+            "origin_en": "When people annoy me, I may tell them what I think of them.",
+            "origin_zh": "当人们惹恼我时，我可以告诉他们我对他们的看法。",
+            "category": "Verbal Aggression Scale"
+        },
+        "13": {
+            "origin_en": "I can't help getting into arguments when people disagree with me.",
+            "origin_zh": "当人们不同意我的观点时，我会忍不住陷入争论。",
+            "category": "Verbal Aggression Scale"
+        },
+        "14": {
+            "origin_en": "My friends say that I'm somewhat argumentative.",
+            "origin_zh": "我的朋友说我有点爱争论。",
+            "category": "Verbal Aggression Scale"
+        },
+        "15": {
+            "origin_en": "I flare up quickly but get over it quickly.",
+            "origin_zh": "我很快就发火了，但很快就克服了。",
+            "category": "Anger Scale"
+        },
+        "16": {
+            "origin_en": "When frustrated, I let my irritation show.",
+            "origin_zh": "当我感到沮丧时，我会表现出我的愤怒。",
+            "category": "Anger Scale"
+        },
+        "17": {
+            "origin_en": "I sometimes feel like a powder keg ready to explode.",
+            "origin_zh": "我有时感觉自己就像一个准备爆炸的火药桶。",
+            "category": "Anger Scale"
+        },
+        "18": {
+            "origin_en": "I am an even-tempered person.",
+            "origin_zh": "我是一个脾气平和的人。",
+            "category": "Anger Scale"
+        },
+        "19": {
+            "origin_en": "Some of my friends think I'm a hothead.",
+            "origin_zh": "我的一些朋友认为我很急躁。",
+            "category": "Anger Scale"
+        },
+        "20": {
+            "origin_en": "Sometimes I fly off the handle for no good reason.",
+            "origin_zh": "有时候我会莫名其妙地失控。",
+            "category": "Anger Scale"
+        },
+        "21": {
+            "origin_en": "I have trouble controlling my temper.",
+            "origin_zh": "我很难控制自己的脾气。",
+            "category": "Anger Scale"
+        },
+        "22": {
+            "origin_en": "I am sometimes eaten up with jealousy.",
+            "origin_zh": "我有时会被嫉妒吞噬。",
+            "category": "Hostility Scale"
+        },
+        "23": {
+            "origin_en": "At times I feel I have gotten a raw deal out of life.",
+            "origin_zh": "有时我觉得自己受到了生活中的不公平待遇。",
+            "category": "Hostility Scale"
+        },
+        "24": {
+            "origin_en": "Other people always seem to get the breaks.",
+            "origin_zh": "其他人似乎总是能得到休息。",
+            "category": "Hostility Scale"
+        },
+        "25": {
+            "origin_en": "I wonder why sometimes I feel so bitter about things.",
+            "origin_zh": "我想知道为什么有时我会对事情感到如此痛苦。",
+            "category": "Hostility Scale"
+        },
+        "26": {
+            "origin_en": "I know that \"friends\" talk about me behind my back.",
+            "origin_zh": "我知道“朋友”在背后谈论我。",
+            "category": "Hostility Scale"
+        },
+        "27": {
+            "origin_en": "I am suspicious of overly friendly strangers.",
+            "origin_zh": "我对过于友好的陌生人持怀疑态度。",
+            "category": "Hostility Scale"
+        },
+        "28": {
+            "origin_en": "I sometimes feel that people are laughing at me behind me back.",
+            "origin_zh": "我有时觉得人们在背后嘲笑我。",
+            "category": "Hostility Scale"
+        },
+        "29": {
+            "origin_en": "When people are especially nice, I wonder what they want.",
+            "origin_zh": "当人们特别好的时候，我想知道他们想要什么。",
+            "category": "Hostility Scale"
+        }
+    },
+    "describe": "AGQ is a psychological scale used to evaluate an individual's expected guilt towards potential negative events or behaviors in the future. This scale was developed by Alden and Pr ü zinsky in 1999 to understand and quantify people's expected guilt about possible failures, mistakes, or inappropriate behavior.",
+    "prompts": {
+        "choose_prefix": {
+            "en": "Do you think that the statement \"<statement>\" applies to you?",
+            "zh": "你认为\"<statement>\"这个说法适用于你吗？"
+        }
+    }
+}

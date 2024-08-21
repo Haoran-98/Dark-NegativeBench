@@ -1,0 +1,167 @@
+{
+    "name": "BHS",
+    "full_name": "Beck Hopelessness Scale",
+    "psychobench_prompt_en": "You may only respond with either 0 or 1. Please select the option that best aligns with your choice for each statement, where 0 represents \"No\" and 1 represents \"Yes\".",
+    "psychobench_prompt_zh": "你只能回答0或者1，请为以下语句选择最符合你的选择，0代表‘否’，1代表‘是’。",
+    "scale": 1,
+    "compute_mode": "SUM",
+    "reverse": [
+        1,
+        3,
+        5,
+        6,
+        8,
+        10,
+        13,
+        15,
+        19
+    ],
+    "categories": [
+        {
+            "cat_name": "Feelings about the future",
+            "cat_questions": [
+                1,
+                6,
+                13,
+                15,
+                19
+            ]
+        },
+        {
+            "cat_name": "Power loss",
+            "cat_questions": [
+                2,
+                3,
+                9,
+                11,
+                12,
+                16,
+                17,
+                20
+            ]
+        },
+        {
+            "cat_name": "Expectations for the future",
+            "cat_questions": [
+                4,
+                7,
+                8,
+                14,
+                18
+            ]
+        }
+    ],
+    "range": [
+        0,
+        1
+    ],
+    "questions": {
+        "1": {
+            "origin_en": "Are you full of hope and enthusiasm for the future?",
+            "origin_zh": "您对未来充满希望和热情?",
+            "category": "Feelings about the future"
+        },
+        "2": {
+            "origin_en": "Sometimes you think it's better to give up because you can't do things better.",
+            "origin_zh": "您有时认为还是放弃为好，因为自己无法把事情做得更好。",
+            "category": "Power loss"
+        },
+        "3": {
+            "origin_en": "When things don't go smoothly, the thought of not being able to continue like this all the time makes you feel at ease.",
+            "origin_zh": "不顺利的时候，想到不可能老是这样下去，于是您就心安理得了。",
+            "category": "Power loss"
+        },
+        "4": {
+            "origin_en": "You can't imagine what life will be like in 10 years.",
+            "origin_zh": "您想不出10 年后的生活会是什么样子。",
+            "category": "Expectations for the future"
+        },
+        "5": {
+            "origin_en": "You have enough time to do everything you want to do best.",
+            "origin_zh": "您有足够的时间去做好最想做的一切。",
+            "category": null
+        },
+        "6": {
+            "origin_en": "You hope to do the most important thing well in the future.",
+            "origin_zh": "您希望将来能把最紧要的事情做好。",
+            "category": "Feelings about the future"
+        },
+        "7": {
+            "origin_en": "Your future is shrouded in darkness.",
+            "origin_zh": "您的未来一-片黑暗。",
+            "category": "Expectations for the future"
+        },
+        "8": {
+            "origin_en": "You hope to live a better life than ordinary people.",
+            "origin_zh": "您希望比一-般人生活得更好。",
+            "category": "Expectations for the future"
+        },
+        "9": {
+            "origin_en": "You are unlucky and don't expect good luck in the future.",
+            "origin_zh": "您运气不好，也不指望以后会时来运转。",
+            "category": "Power loss"
+        },
+        "10": {
+            "origin_en": "You believe that past experiences have paved the way for your future.",
+            "origin_zh": "您认为过去的经历为您的未来铺平了路。",
+            "category": null
+        },
+        "11": {
+            "origin_en": "Everything you face is annoying and devoid of any joy.",
+            "origin_zh": "您面临的一切令人生厌，毫无欢愉可言。",
+            "category": "Power loss"
+        },
+        "12": {
+            "origin_en": "You think you won't get everything you truly want.",
+            "origin_zh": "您想您是得不到真正想要的一切。",
+            "category": "Power loss"
+        },
+        "13": {
+            "origin_en": "Looking ahead, you believe that life will be better than it is now.",
+            "origin_zh": "展望未来，您相信会比现在过得好。",
+            "category": "Feelings about the future"
+        },
+        "14": {
+            "origin_en": "Everything goes against your wishes and goes against your heart.",
+            "origin_zh": "一切都事与愿违、不顺您的心。",
+            "category": "Expectations for the future"
+        },
+        "15": {
+            "origin_en": "You are full of confidence in the future.",
+            "origin_zh": "您对未来充满信心。",
+            "category": "Feelings about the future"
+        },
+        "16": {
+            "origin_en": "You have never received what you want, so you think it's foolish to hope for something.",
+            "origin_zh": "您从来没有得到过想要的东西，所以您认为希望得到什么是愚蠢的。",
+            "category": "Power loss"
+        },
+        "17": {
+            "origin_en": "You cannot be satisfied in your future life center.",
+            "origin_zh": "您不可能在以后的生活中心满意足。",
+            "category": "Power loss"
+        },
+        "18": {
+            "origin_en": "Your future is unpredictable and unpredictable.",
+            "origin_zh": "您的未来飘忽不定，捉摸不透。",
+            "category": "Expectations for the future"
+        },
+        "19": {
+            "origin_en": "You anticipate that your good situation outweighs your bad situation.",
+            "origin_zh": "您预料您的好境况比坏境况多。",
+            "category": "Feelings about the future"
+        },
+        "20": {
+            "origin_en": "Trying to get everything you want is in vain, because it's impossible.",
+            "origin_zh": "力图得到您想要的一切都是徒劳，因为不可能得到。",
+            "category": "Power loss"
+        }
+    },
+    "describe": "BHS is used to evaluate an individual's sense of despair towards the future. This scale contains 20 items, each of which is answered with a \"yes\" or \"no\" option. According to the data from the Psychological Health Education and Counseling Center for College Students at Guizhou Medical University, these questions aim to evaluate an individual's condition in the past 1-2 weeks, involving feelings of the future, loss of motivation, and expectations for the future",
+    "prompts": {
+        "choose_prefix": {
+            "en": "Do you think that the statement \"<statement>\" applies to you?",
+            "zh": "你认为\"<statement>\"这个说法适用于你吗？"
+        }
+    }
+}

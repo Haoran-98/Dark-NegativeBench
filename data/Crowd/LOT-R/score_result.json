@@ -1,0 +1,18 @@
+{
+    "categories": [
+        {
+            "positive": {
+                "cat_question_num": 6,
+                "cat_score_total": 15.3,
+                "cat_score_avg": 2.55,
+                "cat_score_sd": 3.6
+            }
+        }
+    ],
+    "Overall": {
+        "question_num": 10,
+        "score_total": 33.625,
+        "score_avg": 3.3625,
+        "score_sd": 2.4238399287081647
+    }
+}

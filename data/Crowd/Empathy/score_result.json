@@ -1,0 +1,18 @@
+{
+    "categories": [
+        {
+            "Empathetic": {
+                "cat_question_num": 10,
+                "cat_score_total": 54.60000000000001,
+                "cat_score_avg": 4.9,
+                "cat_score_sd": 0.8
+            }
+        }
+    ],
+    "Overall": {
+        "question_num": 10,
+        "score_total": 54.60000000000001,
+        "score_avg": 5.460000000000001,
+        "score_sd": 0.9919677414109798
+    }
+}
